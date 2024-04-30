@@ -243,7 +243,7 @@ public class hackathon_project {
 	static void screenshot() {
 		TakesScreenshot screenShot = (TakesScreenshot) driver;
 		File srcFile = screenShot.getScreenshotAs(OutputType.FILE);
-		File destFile = new File("C:\\Users\\2318721\\eclipse-workspace\\Hackathon_Project\\screenshot\\Screenshot.png");
+		File destFile = new File("C:\\Users\\2318723\\eclipse-workspace\\Hackathon_Project\\screenshot\\Screenshot.png");
 		try {
 			FileUtils.copyFile(srcFile, destFile);
 			System.out.println("screenshot saved !");

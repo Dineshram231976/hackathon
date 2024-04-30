@@ -29,7 +29,7 @@ public class Bookshelves {
            bp.selectpricerange();
 		}
 
-	@When("the user enters the invalid input as \\(search :{string})")
+	@Given("the user enters the invalid input as \\(search :{string})")
 	public void the_user_enters_the_invalid_input_as_search(String string) {
 		BaseClass.getLogger().info("User enters invalid input.. ");
 		bp.click_searchBox(); 
